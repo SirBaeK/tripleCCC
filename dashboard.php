@@ -10,11 +10,17 @@ include("auth.php");
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-<div class="form">
-<p>Tvoje místo v klubovně</p>
-<p>toto je jiná stránka, která je přístupná jen po přihlášení.</p>
-<p><a href="index.php">Rozhlédnout se</a></p>
-<a href="logout.php">Odejít</a>
+<div class="form-index">
+	<div class="column-center"><p>
+
+	</div>
+	</div>
+ 	<div class="column-left">
+ 		<p><a href="dashboard.php">Tvůj koutek</a></p>
+ 		<p><a href="aboutme.php">Kdo jsem</a></p>
+		<p><a href="logout.php">Odejít</a></p>
+	</div>
 </div>
+
 </body>
 </html>

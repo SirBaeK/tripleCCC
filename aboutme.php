@@ -1,25 +1,20 @@
 <?php
-//include auth.php file on all secure pages
+require('db.php');
 include("auth.php");
 ?>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="utf-8">
-<title>O tobě</title>
+<title>o tobě</title>
 <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-
-
 <div class="form-index">
 	<div class="column-center">
-		<form action="" method="post" name="aboutme">
-			<p>Jak se jmenujete:<?php echo $_SESSION['username']; ?></p>
-			<p>Nějaký kontakt na vás:<input type="text" name="kontakt" placeholder="Kontakt" required /></p>
-			<p>Něco o vás:
-			<input name="submit" type="submit" value="Přihlásit se" />
-		</form>
+		<p>username je  <?php $username = $_SESSION['username'];echo $username; ?>!</p>
+		<p>email je <?php $username = $_SESSION['username'];$result = mysql_query("SELECT * FROM `users` WHERE `username` = '$username'");$row = mysql_fetch_row($result);echo $row; ?>!
+		</p>
 	</div>
  	<div class="column-left">
  		<p><a href="dashboard.php">Tvůj koutek</a></p>
@@ -29,3 +24,4 @@ include("auth.php");
 </div>
 </body>
 </html>
+
