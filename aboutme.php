@@ -13,7 +13,7 @@ include("auth.php");
 <div class="form-index">
 	<div class="column-center">
 		<p>username je  <?php $username = $_SESSION['username'];echo $username; ?>!</p>
-		<p>email je <?php $username = $_SESSION['username'];$result = mysql_query("SELECT * FROM `users` WHERE `username` = '$username'");$row = mysql_fetch_row($result);echo $row; ?>!
+		<p>email je <?php $username = $_SESSION['username'];$result = mysql_query("SELECT * FROM `users` WHERE `username` = '$username'");$row = mysql_fetch_row($result);echo $result ; echo $row['email']; ?>!
 		</p>
 	</div>
  	<div class="column-left">
