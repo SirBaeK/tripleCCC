@@ -14,7 +14,7 @@ include("auth.php");
 	<div class="column-center"><p>
 
 	</div>
-	</div>
+	
  	<div class="column-left">
  		<p><a href="dashboard.php">Tvůj koutek</a></p>
  		<p><a href="aboutme.php">Kdo jsem</a></p>
