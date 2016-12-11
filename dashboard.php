@@ -12,13 +12,14 @@ include("auth.php");
 <body>
 <div class="form-index">
 	<div class="column-center"><p>
-
-	</div>
+fjhgjgjhkhjkhkh
 	</div>
  	<div class="column-left">
+ 		<p><a href="index.php">Klubovna</a></p>
  		<p><a href="dashboard.php">Tvůj koutek</a></p>
  		<p><a href="aboutme.php">Kdo jsem</a></p>
 		<p><a href="logout.php">Odejít</a></p>
+ 		<p><a href="unused.php">unused</a></p>
 	</div>
 </div>
 

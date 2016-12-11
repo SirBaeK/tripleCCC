@@ -1,0 +1,24 @@
+[03-Dec-2016 23:22:11 Europe/Prague] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/html/tripleCCC/unused.php on line 10
+[03-Dec-2016 23:24:40 Europe/Prague] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/html/tripleCCC/unused.php on line 11
+[03-Dec-2016 23:25:15 Europe/Prague] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/html/tripleCCC/unused.php on line 10
+[03-Dec-2016 23:25:52 Europe/Prague] PHP Notice:  Undefined variable: username in /var/www/html/tripleCCC/unused.php on line 53
+[03-Dec-2016 23:29:33 Europe/Prague] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/html/tripleCCC/unused.php on line 11
+[03-Dec-2016 23:34:25 Europe/Prague] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /var/www/html/tripleCCC/unused.php on line 12
+[04-Dec-2016 03:56:28 Europe/Prague] PHP Notice:  Undefined property: stdClass::$email in /var/www/html/tripleCCC/aboutme.php on line 33
+[04-Dec-2016 04:02:10 Europe/Prague] PHP Notice:  Undefined index: email in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:02:43 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:03:16 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:03:19 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:03:50 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 30
+[04-Dec-2016 04:03:50 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:04:13 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 30
+[04-Dec-2016 04:04:13 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:04:47 Europe/Prague] PHP Notice:  Array to string conversion in /var/www/html/tripleCCC/aboutme.php on line 31
+[04-Dec-2016 04:08:15 Europe/Prague] PHP Warning:  printf(): Too few arguments in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:09:28 Europe/Prague] PHP Fatal error:  Cannot use [] for reading in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:09:43 Europe/Prague] PHP Notice:  Undefined offset: 1 in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:09:43 Europe/Prague] PHP Warning:  printf(): Too few arguments in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:10:40 Europe/Prague] PHP Notice:  Undefined offset: 1 in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:10:40 Europe/Prague] PHP Warning:  printf(): Too few arguments in /var/www/html/tripleCCC/aboutme.php on line 28
+[04-Dec-2016 04:18:50 Europe/Prague] PHP Notice:  Undefined offset: 1 in /var/www/html/tripleCCC/aboutme.php on line 21
+[04-Dec-2016 04:55:12 Europe/Prague] PHP Parse error:  syntax error, unexpected '$subject' (T_VARIABLE) in /var/www/html/tripleCCC/registration.php on line 36

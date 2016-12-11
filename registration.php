@@ -16,6 +16,8 @@ if (isset($_REQUEST['username'])){
 	$username = mysqli_real_escape_string($con,$username);
 	$email = stripslashes($_REQUEST['email']);
 	$email = mysqli_real_escape_string($con,$email);
+	$phone = stripslashes($_REQUEST['phone']);
+	$phone = mysqli_real_escape_string($con,$phone);
 	$adress = stripslashes($_REQUEST['adress']);
 	$adress = mysqli_real_escape_string($con,$adress);
 	$aboutme = stripslashes($_REQUEST['aboutme']);
@@ -23,22 +25,13 @@ if (isset($_REQUEST['username'])){
 	$password = stripslashes($_REQUEST['password']);
 	$password = mysqli_real_escape_string($con,$password);
 	$trn_date = date("Y-m-d H:i:s");
-        $query = "INSERT into `users` (username, password, email, trn_date, adress, aboutme)
-VALUES ('$username', '".md5($password)."', '$email', '$trn_date', '$adress', '$aboutme')";
+        $query = "INSERT into `users` (username, password, email, phone, trn_date, adress, aboutme)
+VALUES ('$username', '".md5($password)."', '$email', '$phone', '$trn_date', '$adress', '$aboutme')";
         $result = mysqli_query($con,$query);
-        if($result)
-        {
- 	$to = "kafkic@gmail.com";
-        $subject = "registrace nového člena";
-        $message = "nekdo, kdo si řiká '$username' se '$trn_date' registroval do klubu.<br/>kdyby si mu chtěl napsat tak sem '$email'.";
-	mail($to , $subject, $message);
-	$to = $email
-        $subject = "Víme o tobě, ale ještě nemáš vyhráno";
-        $message = "Zdravim '$username' k '$trn_date' jsme zaregistrovali, že by si se rád registroval do klubu.<br/>Jsme potěšeni, ale musíš vydržet, než se rozhodneme, jestli chceme mi mezi sebe :)<br/>přijd osobně a nějak se dohodneme určitě.";
-	mail($email, $subject, $message);
+        if($result) {
         echo "<div class='form'><h3>Registrace proběhla v pořádku, ted se čeká jen na schválení.</h3><br/>Zde klikni pro <a href='login.php'>přihlášení</a></div>";
         }
-    }else{
+  
 ?>
 <div class="form">
 <h1>Stát se členem</h1>
@@ -47,6 +40,7 @@ VALUES ('$username', '".md5($password)."', '$email', '$trn_date', '$adress', '$a
 <input type="email" name="email" placeholder="Email" required />
 <input type="text" name="adress" placeholder="Adresa" required />
 <input type="text" name="aboutme" placeholder="Popiš se" required />
+<input type="text" name="phone" placeholder="telefon" required />
 <input type="password" name="password" placeholder="Heslo" required />
 <input type="submit" name="submit" value="Registrovat se" />
 </form>
