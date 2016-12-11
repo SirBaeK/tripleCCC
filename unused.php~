@@ -7,13 +7,14 @@ include("auth.php");
 include("variables.php");
 include'functions.php';
  
-if ($_SESSION["username"] == "kafkicz") {
-	print_r($_SESSION};print_r($_SESSION["username"]);
-	$username = $_SESSION["username"];
+if($_SESSION["username"] == "kafkicz"){
+echo "aaa";print_r($_SESSION["username"]);
 }
 
 print_r($_SESSION["username"]);
 ?>
+
+
 
 
 <!DOCTYPE html>
@@ -26,9 +27,9 @@ print_r($_SESSION["username"]);
 <body>
 <div class="form-index">
 	<div class="column-center">
-		<p><?php if ($_SESSION["username"] == "kafkicz"){
-				registration();} ?>
-		</p>
+		<p><?php if($_SESSION["username"] == "kafkicz"){
+
+registration();} ?>!</p>
 	</div>
  	<div class="column-left">
  		<p><a href="index.php">Klubovna</a></p>

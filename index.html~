@@ -14,7 +14,7 @@ $query = "SELECT news FROM news ORDER BY time DESC ";
 $result = mysqli_query($con, $query);
 $news = mysqli_fetch_array($result);
 echo $news['news'];
-echo "kokot";
+
 
 ?>
 
