@@ -12,8 +12,14 @@ include("auth.php");
 <body>
 <div class="form-index">
 	<div class="column-center"><p>
+<<<<<<< HEAD
 fjhgjgjhkhjkhkh
 	</div>
+=======
+
+	</div>
+	
+>>>>>>> 5c0575077043c1b746d357d888d7d0192eb665f6
  	<div class="column-left">
  		<p><a href="index.php">Klubovna</a></p>
  		<p><a href="dashboard.php">Tvůj koutek</a></p>

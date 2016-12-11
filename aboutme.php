@@ -16,11 +16,17 @@ $result = mysqli_query($con, $query );
 <body>
 <div class="form-index">
 	<div class="column-center">
+<<<<<<< HEAD
 		<p>username je <?php echo $username; ?>!</p>
 		<p>email je <?php if ($result = mysqli_query($con, $query)) { while ($row = mysqli_fetch_array($result)) {echo $row['email'];};};?></p>
 		<p>tvoje adresa je <?php if ($result = mysqli_query($con, $query)) { while ($row = mysqli_fetch_array($result)) {echo $row['adress'];};};?></p>
 		<p>co jsi o sobě napsal <?php if ($result = mysqli_query($con, $query)) { while ($row = mysqli_fetch_array($result)) {echo $row['aboutme'];};};?></p>
 		<p>registroval si se <?php if ($result = mysqli_query($con, $query)) { while ($row = mysqli_fetch_array($result)) {echo $row['trn_date'];};};?></p>
+=======
+		<p>username je  <?php $username = $_SESSION['username'];echo $username; ?>!</p>
+		<p>email je <?php $username = $_SESSION['username'];$result = mysql_query("SELECT * FROM `users` WHERE `username` = '$username'");$row = mysql_fetch_row($result);echo $result ; echo $row['email']; ?>!
+		</p>
+>>>>>>> 5c0575077043c1b746d357d888d7d0192eb665f6
 	</div>
  	<div class="column-left">
  		<p><a href="index.php">Klubovna</a></p>
