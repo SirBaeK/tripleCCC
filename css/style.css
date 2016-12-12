@@ -49,7 +49,7 @@ a:hover{
 	width: 50%;
 }
 
-.column-news{
+/*.column-news{
 	
 	display: inline-block;
 	width: 25%;
@@ -60,10 +60,11 @@ a:hover{
    font-size: 14px;
    margin-top: 10px;
    background-color: #0067ab;
-}
+}*/
 .news{
      border-radius: 2px;
      border: 1px solid #CCC;
+     width: 100%;
      padding: 10px;
      color: #333;
      font-size: 14px;
